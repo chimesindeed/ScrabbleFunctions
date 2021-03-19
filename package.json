@@ -1,0 +1,29 @@
+{
+  "name": "scrabbleRackSorter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scrabble_rack_sorter.js",
+  "scripts": {
+    "start": "NODE_ENV=development parcel src/index.html --open",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "babel-preset": "^1.1.7",
+    "babel-preset-react": "^6.24.1",
+    "core-js": "^3.9.1",
+    "env": "0.0.2",
+    "parcel-bundler": "^1.12.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "jest": "^26.6.3"
+  }
+}
